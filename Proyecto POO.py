@@ -215,15 +215,7 @@ while True:
 
                 medidas = input("Medidas: ")
 
-                micro = Microondas(
-                    id,
-                    marca,
-                   modelo,
-                    precio,
-                    potencia,
-                    consumo,
-                    medidas
-                )
+                micro = Microondas(id, marca, modelo, precio, potencia, consumo, medidas)
 
                 electrodomesticos.append(micro)
 
